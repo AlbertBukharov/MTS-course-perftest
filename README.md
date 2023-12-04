@@ -15,8 +15,8 @@
 # Решение
 ## Профиль нагрузки
 Из предоставленного sawgger'a мы получаем типовые ручки
-`GET /Cities/{id}  
-PUT /Cities/{id}  
+`GET /Cities/{id}\n
+PUT /Cities/{id}\n
 POST /Cities  
 GET /Cities  
 GET /Forecast/{id}  
