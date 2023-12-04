@@ -23,4 +23,5 @@ GET /Forecast/{id}
 PUT /Forecast/{id}  
 POST /Forecast/{cityID}  
 GET /Forecast  
-GET /WeatherForecast```
+GET /WeatherForecast
+
