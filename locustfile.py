@@ -60,7 +60,7 @@ class MyLocust(HttpUser):
 
     #GET /Forecast/{id}
     @task(1)    #будем считать, что частота использования запроса - очень редкая = 1 (дергать по ID - редкость)
-    def get_forecast(self):
+    def get_forecastid(self):
         url_randomforecastid="/Forecast/"+str(random.randint(10,1000))
         self.client.get(url_randomforecastid, headers=self.headers)
 
